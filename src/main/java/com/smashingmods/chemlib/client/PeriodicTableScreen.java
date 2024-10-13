@@ -98,10 +98,10 @@ public class PeriodicTableScreen extends Screen {
                 ((this.width - 276) / 2) - 55, ((this.height - (7 * 28)) / 2) - 30, 274, 80, 0, 0, 40, 40, 40, 40);
     }
 
-    @Override
-    public void renderBackground(DrawContext context, int mouseX, int mouseY, float delta) {
-        //super.renderBackground(context, mouseX, mouseY, delta);
-    }
+    // @Override
+    // public void renderBackground(DrawContext context, int mouseX, int mouseY, float delta) {
+    //     super.renderBackground(context, mouseX, mouseY, delta);
+    // }
 
     @Override
     public boolean shouldPause() {
