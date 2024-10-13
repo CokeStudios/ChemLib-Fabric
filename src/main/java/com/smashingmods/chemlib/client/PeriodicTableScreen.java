@@ -22,7 +22,7 @@ public class PeriodicTableScreen extends Screen {
 
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-        renderBackground(context, mouseX, mouseY, delta);
+        // renderBackground(context, mouseX, mouseY, delta);
 
         int imageWidth = 2000;
         int imageHeight = 1016;
